@@ -6,6 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1></h1>Xin chào Al</h1>
+    <h1></h1>Xin chào A1</h1>
 </body>
 </html>
