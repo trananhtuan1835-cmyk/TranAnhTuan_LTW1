@@ -16,9 +16,22 @@
     echo "Mã sinh viên: $massv <br>";
     echo "Số điện thoại: $sodt <br>";
 //3.
-    echo "3. <br>";
     const HOST ="HOST";
     const DATABASE ="DATABASE";
     const USERNAME="USERNAME";
     const PASSWORD="PASSWORD";
+//4
+    echo"ví dụ: <br>";
+    // 1. Nội suy biến
+    echo "Xin chào $ten";        // Xin chào An
+    echo 'Xin chào $ten';        // Xin chào $ten  (không thay biến)
+
+    echo "\n";
+
+    // 2. Ký tự đặc biệt (escape sequence)
+    echo "Dòng 1\nDòng 2";       // xuống dòng thật sự
+    echo 'Dòng 1\nDòng 2';       // in ra nguyên văn: Dòng 1\nDòng 2
+//5
+    /* Chú thích nhiều dòng cũng có thể
+   viết gọn trên vài dòng như thế này */
 ?>
