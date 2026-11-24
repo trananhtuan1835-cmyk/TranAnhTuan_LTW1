@@ -57,5 +57,37 @@ echo "strlen() = " . strlen($khongDau) . "<br>";
 echo "Chuỗi có dấu: $coDau <br>";
 echo "strlen() = " . strlen($coDau) . " (số byte) <br>";
 echo "mb_strlen() = " . mb_strlen($coDau, "UTF-8") . " (số ký tự) <br>";
+
+//6.
+$chuoi = "Học Lập Trình PHP Rất Thú Vị";
+echo "Bài 6 - strtoupper: " . strtoupper($chuoi) . "<br>";
+echo "Bài 6 - strtolower: " . strtolower($chuoi) . "<br>";
+echo "Bài 6 - mb_strtoupper: " . mb_strtoupper($chuoi, "UTF-8") . "<br>";
+echo "Bài 6 - mb_strtolower: " . mb_strtolower($chuoi, "UTF-8") . "<br>";
+
+//7. 
+$a = "123 abc";
+$b = "abc 123";
+echo "Bài 7:<br>";
+var_dump((int)$a);
+echo "<br>";
+var_dump((int)$b);
+echo "<br>";
+
+$soNguyen = 25;
+$soThuc = 3.14;
+$vanBan = "Xin chào";
+$logic = true;
+
+//8.
+echo "Bài 8:<br>";
+var_dump($soNguyen);
+echo "<br>";
+var_dump($soThuc);
+echo "<br>";
+var_dump($vanBan);
+echo "<br>";
+var_dump($logic);
+
 ?>
 
