@@ -1,3 +1,4 @@
+/* section 1 */
 *{
     margin: 0;
     padding: 0;
@@ -24,7 +25,7 @@ nav li:hover{
     background-color: dodgerblue;
 }
 .s1{
-    max-width: 500px;
+    max-width: 1000px;
     margin: 20px auto;
     background-color: #fff;
     padding: 20px;
@@ -45,9 +46,94 @@ nav li:hover{
     margin-bottom: 10px;
     background: #e7f1ff;
     border-left: 5px solid #0d6efd; 
-    border-radius: 5px;     transition: .3s;
+    border-radius: 5px;     
+    transition: .3s;
 }
 .s1 li:hover{ 
     background: #cfe2ff;
     transform: translateX(5px); 
+}
+/* section 2 */
+.s2{
+    max-width: 1000px;
+    box-shadow: 0 0 10px gainsboro;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+.s2 table{
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+.s2 th,.s2 td{
+    border: 0.5px solid rgb(179, 179, 179);
+    padding: 10px 50px;
+}
+.s2 th { 
+    background-color: #0d6efd;
+    color: white; 
+} 
+.s2 tbody tr:nth-child(odd) {
+    background-color: gainsboro;
+} 
+.s2 tbody tr:hover { 
+    background-color: rgb(177, 216, 255);
+    transform: translate(3px);
+}
+/* section 3 */
+.s3 {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px 25px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+.s3 h2 {
+    text-align: center;
+    color: #0d6efd;
+    margin-top: 0;
+}
+.s3 label.title {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.s3 input[type="text"],
+.s3 select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.s3 input[type="text"]:focus,
+.s3 select:focus {
+    border-color: #0d6efd;
+    outline: none;
+}
+.s3 .option {
+    display: inline-block;
+    margin-right: 15px;
+}
+.s3 .buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+.s3 button {
+    padding: 8px 22px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+}
+.s3 button[type="submit"] {
+    background: #0d6efd;
+}
+.s3 button[type="reset"] {
+    background: #6c757d;
+}
+.s3 button:hover {
+    opacity: 0.85;
 }
